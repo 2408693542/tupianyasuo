@@ -26,6 +26,7 @@
 │   └── style.css      # 样式文件
 ├── js/
 │   └── main.js        # 主要功能实现
+├── vercel.json        # Vercel 部署配置
 └── README.md          # 项目说明文档
 ```
 
@@ -35,6 +36,14 @@
 2. 使用滑块调节压缩比例
 3. 实时预览压缩效果
 4. 点击下载按钮保存压缩后的图片
+
+## 部署说明
+
+本项目使用 Vercel 进行自动部署：
+
+1. 代码提交到 GitHub 后自动触发部署
+2. 访问 [Vercel Dashboard](https://vercel.com/dashboard) 查看部署状态
+3. 支持自定义域名配置
 
 ## 浏览器支持
 
